@@ -1,0 +1,1 @@
+//depricated and added to main file minecraft.js

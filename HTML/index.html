@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Minecraft</title>
+	<link href="../CSS/minecraft-style.css" type="text/css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Londrina+Solid" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+
+<div class="container">
+<div class="row">
+<div id="board" class="col-md-7"></div>
+<div id ="toolbar" class="col-md-3 text-center">
+	<div class = "toolButton" id = "shovel"><img id="tool1" src = "../images/shovel.png" alt = "shovel"><p class="text">SHOVEL</p></div>
+    <div class = "toolButton" id = "pickaxe"><img id="tool2" src = "../images/pickaxe.png" alt = "pickaxe"><p class="text">PICKAXE</p></div>
+    <div class = "toolButton" id = "axe"><img id="tool3" src  = "../images/axe.png" alt = "axe"><p class="text">AXE</p></div>
+</div>
+<div id="toolbar2" class="col-md-2 text-center">
+    <div class = "storage" id="storage1"><p class="number" id="counterGrass"></p></div>
+	<div class = "storage" id="storage2"><p class="number" id="counterDirt"></p></div>
+	<div class = "storage" id="storage3"><p class="number" id="counterRock"></p></div>
+	<div class = "storage" id="storage4"><p class="number" id="counterTree"></p></div>
+	<div class = "storage" id="storage5"><p class="number" id="counterLeaf"></p></div>
+	<div class = "storage" id="storage6"><p class="number" id="counterFence"></p></div>
+</div>
+	<button id="button" type="btn-default" onclick="Minecraft.resetMatrix()">Restart</button></div>
+</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="../JS/minecraft.js"></script>
+	
+</body>
+</html>

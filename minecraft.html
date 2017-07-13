@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang = "en">
+<head>
+    <meta charset="utf-8">
+    <title>MINECRAFT 2D</title>
+    <meta name = "description" content = "Minecraft 2D">
+    <meta name = "author" content = "Deborah">
+    <link rel = "stylesheet" href = "CSS/introstyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Londrina+Solid" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+</head>
+<body>
+    <audio controls autoplay>
+        <source src="Minecraft.mp3" type="audio/mp3">
+    </audio>
+    <div class="container">
+    <div class="intro">
+        <div class= "logos">
+            <img class="logo" src="images/MinecraftLogo.png" alt="Minecraft Logo">
+        </div>
+        <div class="tutorial" id="tutorial">
+            <ol>
+                <li>Press "Start Game"</li>
+                <li>Pick a tool from the toolbar to remove the corresponding block type</li>
+                <li>You are given 6 fence tiles to start</li>
+                <li>Be aware the fences cannot be moved !!</li>
+                <li>Rebuild the board the way you want it</li>
+                <li>Have fun !</li>
+            </ol>  
+        </div> 
+        <div class="buttons"> 
+            <button class="button"><a class="link" href="HTML/index.html">START GAME</a></button>
+            <button class="button link" id="instruction">INSTRUCTIONS</button>
+        </div>
+    </div> 
+    </div>
+    <script>
+        document.getElementById("instruction").addEventListener("click",tuto)
+        function tuto(){
+            document.getElementById("tutorial").style.visibility = "visible";
+        }
+    </script>
+</body>
+</html>

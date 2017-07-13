@@ -1,0 +1,62 @@
+@font-face{
+	font-family:Minecraft;
+	src: url("../fonts/Minecrafter.Alt.ttf")
+}
+body{
+    background-image:url("../images/background.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-color:rgb(121, 182, 65);
+    margin:0px;
+    margin-bottom:60px;
+    font-family: 'Minecraft';
+}
+img{
+    width:80%;
+    margin : 0 auto;
+    display:block;
+    margin-top:-80px;
+}
+.intro{
+    position:relative;
+}
+.button{
+    margin-top:300px;
+    margin-left:20px;
+    margin-right:20px;
+    box-shadow: rgb(138, 42, 33) 4px 6px 10px 0px;
+    background: linear-gradient(rgb(198, 45, 31) 5%, rgb(242, 68, 55) 100%) rgb(198, 45, 31);
+    border-radius: 18px;
+    border: 2px solid rgb(208, 39, 24);
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: 'Minecraft';
+    font-size: 20px;
+    padding: 9px 76px;
+    text-decoration: none;
+    text-shadow: rgb(129, 14, 5) 0px 2px 0px;
+}
+.link{
+    color:white;
+    text-decoration:none;
+}
+.link:hover{
+    color:black;
+}
+.tutorial{
+    position:absolute;
+    width:60%;
+    margin-top:-100px;
+    background-color:white;
+    opacity:0.6;
+    border:3px dotted black;
+    border-radius:15px;
+    margin-left:50px;
+    padding:20px;
+    font-size:20px;
+    visibility:hidden;
+}
+audio{
+    display:none;
+}

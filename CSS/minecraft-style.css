@@ -1,0 +1,188 @@
+@font-face{
+	font-family:Minecraft;
+	src: url("../fonts/Minecrafter.Alt.ttf")
+}
+.container{
+	margin-top:50px;
+    background-color:#87CEEB;
+	border : 3px solid #493615;
+	font-family: 'Minecraft';
+}
+.tile {
+	width: 30px;
+	height: 30px;
+	display:inline-block;
+	border: none;
+}
+#board {
+	display:inline-block;
+}
+
+.mrow {
+	height:30px;
+}
+
+div {
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.dirt {
+	background-image:url("../images/dirt.png");
+}
+
+.grass {
+	background-image:url("../images/grass.png");
+}
+
+.rock {
+	background-image:url("../images/rock.png");
+}
+
+.leaf {
+	background-image:url("../images/leaf.png");
+}
+
+.fence {
+	background-image:url("../images/fence.png");
+}
+
+.tree {
+	background-image:url("../images/tree.png");
+}
+
+.cloud {
+	background-color:white;
+}
+
+.sky {
+	background-color:#87ceeb;
+}
+#toolbar{
+	background-color:rgb(113, 177, 62);
+	padding:30px;
+	margin-left:0px;
+	border-left : 3px solid #493615;
+	border-bottom : 3px solid #493615;
+}
+#toolbar2{
+	background-color:rgb(113, 177, 62);
+	padding:30px;
+	margin-left:0px;
+	border-bottom : 3px solid #493615;
+}
+#tool1{
+	width:90px;
+	height:90px;
+	background: #AA7030;
+  background-image: -webkit-linear-gradient(top, #AA7030, #de7d1d);
+  background-image: -moz-linear-gradient(top, #AA7030, #de7d1d);
+  background-image: -ms-linear-gradient(top, #AA7030, #de7d1d);
+  background-image: -o-linear-gradient(top, #AA7030, #de7d1d);
+  background-image: linear-gradient(to bottom, #AA7030, #de7d1d);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  	border-radius: 18px;
+  	border:3px solid #493615;
+  	cursor:pointer;
+	  margin-left:0px;
+	  margin-top:35px;
+}
+#tool2{
+	width:90px;
+	height:90px;
+	background: #AA7030;
+  background-image: -webkit-linear-gradient(top, #AA7030, #de7d1d);
+  background-image: -moz-linear-gradient(top, #AA7030, #de7d1d);
+  background-image: -ms-linear-gradient(top, #AA7030, #de7d1d);
+  background-image: -o-linear-gradient(top, #AA7030, #de7d1d);
+  background-image: linear-gradient(to bottom, #AA7030, #de7d1d);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  	border-radius: 18px;
+  	border:3px solid #493615;
+  	cursor:pointer;
+	  margin-left:0px;
+	  margin-top:35px;
+}
+#tool3{
+	width:90px;
+	height:90px;
+	background: #AA7030;
+  background-image: -webkit-linear-gradient(top, #AA7030, #de7d1d);
+  background-image: -moz-linear-gradient(top, #AA7030, #de7d1d);
+  background-image: -ms-linear-gradient(top, #AA7030, #de7d1d);
+  background-image: -o-linear-gradient(top, #AA7030, #de7d1d);
+  background-image: linear-gradient(to bottom, #AA7030, #de7d1d);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  	border-radius: 18px;
+  	border:3px solid #493615;
+  	cursor:pointer;
+	  margin-left:0px;
+	  margin-top:35px;
+}
+#button{
+    box-shadow: rgb(138, 42, 33) 4px 6px 10px 0px;
+    background: linear-gradient(rgb(198, 45, 31) 5%, rgb(242, 68, 55) 100%) rgb(198, 45, 31);
+    border-radius: 18px;
+    border: 2px solid rgb(208, 39, 24);
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: 'Minecraft';
+    font-size: 20px;
+    padding: 9px 76px;
+    text-decoration: none;
+    text-shadow: rgb(129, 14, 5) 0px 2px 0px;
+	margin-left:850px;
+	margin-bottom: 5px;
+    margin-top: -50px;
+}
+#button:hover{
+    color:black;
+}
+.toolButton{
+	padding:5px;
+	margin-left:80px;
+	margin-right:80px;
+}
+.storage{
+	margin-top:15px;
+	width:70px;
+	height:70px;
+	border:3px solid #493615;
+	border-radius: 18px;
+	background-color:white;
+	cursor:pointer;
+	opacity:0.8;
+}
+#storage1{
+	background-image:url("../images/grass.png");
+}
+#storage2{
+	background-image:url("../images/dirt.png");
+}
+#storage3{
+	background-image:url("../images/rock.png");
+}
+#storage4{
+	background-image:url("../images/tree.png");
+}
+#storage5{
+	background-image:url("../images/leaf.png");
+}
+#storage6{
+	background-image:url("../images/fence.png");
+}
+.number{
+	color:white;
+	font-size:44px;
+	font-family: 'Minecraft';
+}
+.text{
+	margin-left:15px;
+	margin-top:5px;
+}
+
+
